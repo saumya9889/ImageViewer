@@ -55,7 +55,7 @@ const ImageViewers = () => {
 
   const [currentImage, setCurrentImage] = useState(imageList);
      const handleImage = (e)=> {
-      console.log(e,"e+++")
+      // console.log(e,"e+++")
       setCurrentImage(e);
      }
   return (
